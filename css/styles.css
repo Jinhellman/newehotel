@@ -512,7 +512,7 @@ top: 0;
     margin: 30px auto 20px 0px!important;
   }#desctop2{
     height: 576px;
-    background-image: url('../images/ehotel-cov.jpg');
+    background-image: url('../images/mobile-ver2.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -523,6 +523,10 @@ top: 0;
     font-weight: 900;
   }.desctop-box {
     padding: 25% 13% 3.3125% 5%;
+    }.design-header{
+      color: gray;
+    }.design-coment{
+      color: gray;
     }
 }
 @media screen and (max-width:750px){
@@ -547,6 +551,7 @@ top: 0;
     height: 300px;
   }#desctop2{
     height: 670px;
+    background-image: url('../images/mobile-ver1.jpg');
   }.myButton {
     margin: 30px auto 20px 16px!important;
   }.title-h1 {
