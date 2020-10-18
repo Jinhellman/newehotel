@@ -519,7 +519,7 @@ top: 0;
   }.title-h1{
     font-size: 2.5rem;
     text-shadow: 1px 1px 1px grey;
-    color: #dad9d9;
+    color: white;
     font-weight: 900;
   }.desctop-box {
     padding: 25% 13% 3.3125% 5%;
@@ -527,6 +527,9 @@ top: 0;
       color: gray;
     }.design-coment{
       color: gray;
+    }.Design-Button{
+      color: gray;
+      border: 2px solid gray;
     }
 }
 @media screen and (max-width:750px){
