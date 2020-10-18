@@ -1,0 +1,258 @@
+body{
+  font-family: "BPG Arial", sans-serif;
+  background-image: url("../images/dts.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+a:hover{
+  text-decoration: none;
+}
+input:focus, textarea:focus, select:focus, a:focus, i:focus, button:focus, div:focus, h2:focus, h6:focus, div:focus{
+outline: none;
+}
+input{
+  border-style:  none none solid;
+  border-width: thin;
+  border-color: #b55400;
+  background-color: rgba(0, 0, 0, 0);
+  border-radius: 1%;
+  color: #222831;
+  text-shadow: 0 1px #000;
+  width: 68%;
+
+}
+input:focus{
+  background-color: rgba(0,0,0,.075);
+  border-color: #000;
+  border-width: thin;
+}
+label{
+  color:#fff;
+  text-shadow: 1px 1px 4px #000;
+  margin-top: 1.3rem;
+}
+.nav-item{
+  font-size: 1.25rem;
+}
+.nav-item:hover{
+    box-shadow: 0 2px #b55400;
+}
+.nav-a{
+  color: #b55400;
+  font-size:1rem;
+  text-shadow: 0 1px #000;
+}
+.nav-a:hover{
+  color: #fff;
+}
+.navbar-nav{
+display: table-header-group;
+}
+.dts-icon{
+  color: #b55400;
+}
+.fa-globe-europe{
+  color: #b55400;
+  text-shadow: 0 1px #000;
+}
+.fa-globe-europe:hover{
+  color: #fff;
+}
+.arrow{
+  color: #b55400;
+}
+.arrow:hover{
+  color:#b55400;
+}
+.dropdown{
+  padding: 0 1.625rem;
+}
+.dropdown-item{
+  color:  #fff;
+  background-color: #b55400;
+}
+.dropdown-item:hover{
+  background-color: rgba(0,0,0,.075);
+  color: #eeeeee;
+}
+
+.dropdown-menu{
+padding: 0;
+min-width: 6rem;
+font-size: 0.8125rem;
+background-color: rgba(0,0,0,.075);
+border-color: #b55400;
+border: none;
+}
+.dropdown-menu:hover{
+  background-color: rgba(8, 13, 17, 0.48);
+  color: #fff;
+}
+#enter{
+  padding: 4% 10%;
+}
+.enter-h1{
+  margin-bottom: 40px;
+  color: #fff;
+  text-shadow: 1px 1px 4px #000;
+  text-align: center;
+}
+#logIn{
+
+text-align: left;
+}
+.button1{
+border-radius: 1%;
+border-style: solid;
+border-color: #b55400;
+border-width: thin;
+background-color: rgba(0,0,0,.075);
+color: #000;
+font-size: 14px;
+padding: 6px 18px;
+border-radius: 15px;
+margin: 9px 0 0 6px;
+font-family: "BPG Arial", sans-serif;
+}
+.button1:hover{
+  background-color:#b55400 ;
+  color:#fff;
+  border-color: #b55400;
+}
+.button2{
+border-radius: 1%;
+border-style: solid;
+border-color: #b55400;
+border-width: thin;
+background-color: rgba(0,0,0,.075);
+color: #000;
+font-size: 14px;
+padding: 6px 18px;
+border-radius: 15px;
+margin: 9px 0 0 6px;
+font-family: "BPG Arial", sans-serif;
+}
+.button2:hover{
+  background-color: #b55400;
+  color:#fff;
+  border-color: #b55400;
+}
+.button3{
+border-radius: 1%;
+border-style: solid;
+border-color: #212529;
+border-width: thin;
+background-color: #b55400;
+color: #fff;
+margin-top: 35px;
+font-size: 17px;
+padding: 13px 56px;
+border-radius: 28px;
+font-family: "BPG Arial", sans-serif;
+}
+.button3:hover{
+  background-color: rgba(0,0,0,.075);
+  color:#000;
+  border-color: #b55400;
+}
+.text1{
+  border-style: double;
+  border-color:#3CC7C5;
+  border-radius: 5%;
+  text-align: center;
+  border-width:medium;
+}
+.card{
+  background-color: rgba(0, 0, 0, 0.13);
+  color: #fff;
+  text-shadow: 1px 1px 9px #222831;
+  margin-top: 20px;
+  width: auto;
+}
+#contact-list{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.67);
+  visibility: visible;
+}
+.final-a{
+color: #b55400;
+text-shadow: 0 1px #000;
+}
+.final-a:hover{
+  color: #eeeeee;
+  text-decoration: none;
+}
+.final-hr{
+  border-style: solid;
+  border-color: #b55400;
+}
+.contact-icons{
+  color: #b55400;
+  padding: 0 10px;
+  text-shadow: 0 1px #000;
+}
+#middle-hr{
+  padding:1% 28%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.67);
+  visibility: visible;
+}
+.final-hr{
+  border-style: solid;
+  border-color: #b55400;
+}
+.contact-icons{
+  color: #b55400;
+  padding: 0 10px;
+ outline-color: transperent;
+}
+.n1:hover{
+  color: #3982ef;
+}
+.n2:hover{
+  color:#3982ef;
+}
+.n3:hover{
+  color:#ff0000;
+}
+.n4:hover{
+  color:#ff0000;
+}
+.n5:hover{
+  color: #3982ef;
+}
+.n6:hover{
+  color: #3982ef;
+}
+#footer{
+  padding: 46px 0 20px;
+  background-color: rgba(0, 0, 0, 0.67);
+  text-align: center;
+  visibility: visible;
+}
+.webName-p{
+  text-align: center;
+  font-family:'Sacramento';
+  color: #b55400;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 1% 3%;
+  font-size: 14px;
+  border-radius: 100%;
+  border-color: #b55400;
+  border-style: solid;
+  text-shadow: 1px 1px #000;
+  box-shadow: 0px 0 1px #000;
+}
+.form-box{
+  width: 100%;
+}
+@media screen and (min-width:1950px){
+  #footer, #contact-list, #middle-hr{
+    background-color: rgba(0, 0, 0, 0);
+  }body{
+    background-position: unset;
+    background-size: cover;
+  }
+}
