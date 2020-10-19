@@ -796,7 +796,7 @@ line-height: 1.6;
   color: gray;
 }
 #company{
-  background-color: white;
+  background-color: #fae053;
   padding: 100px 0 215px;
   text-align: center;
 }
@@ -965,8 +965,6 @@ transition: 0.4s;
   @media screen and (max-width: 992px){
     .dropdown{
       padding: 0;
-    }#contact-list{
-      text-align: left;
     }#back-slider{
       height: 39%;
     }.in-slider{
