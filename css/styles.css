@@ -843,6 +843,10 @@ line-height: 1.6;
   border-top-style: solid;
   border-top-width: thin;
   border-top-color: #fae053;
+  background-image: url('../images/world.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
  .final-div{
   color: #fff;
