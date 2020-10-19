@@ -254,6 +254,63 @@ top: 0;
   opacity: 0;
   transition: 0.2s;
 }
+.Sync-h1{
+  color: #000;
+  font-weight: lighter;
+  font-size: 2rem;
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
+.Sync-h2{
+  font-size: 1.5rem;
+  color: #000;
+  margin-top: 18px;
+}
+.Sync-h3{
+  font-size:1.3rem;
+  font-weight: lighter;
+  padding: 1.875rem 0;
+}
+.Sync-button {
+	background-color:black ;
+	border-radius:27px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:19px;
+	padding:18px 36px;
+  border: 1px solid black;
+  margin: 64px auto 256px;
+  text-decoration:none;
+  transition: 0.6s;
+}
+ .Sync-button:hover {
+	background-color:transparent;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  transition: 0.6s;
+}
+ .Sync-button:active {
+	position:relative;
+	top:1px;
+}
+#Sync{
+  background-color: #fff;
+  color:  #40514E;
+  padding: 10% 10% 0;
+  line-height: 2;
+  text-align: center;
+  background-color: white;
+}
+.Sync-text{
+  color:  #40514E;
+  text-align: left;
+}
+.lap-top{
+  width: inherit;
+}
+
 @media screen and (max-width:850px){
   .overlay-content1{
     margin-top:0;
@@ -584,6 +641,10 @@ top: 0;
     text-align: center;
   }.dropdown-special{
     padding: 51px 0 0 41px!important;
+  }.Sync-text{
+    text-align: center;
+  }.Sync-h2{
+    text-align: left;
   }
 }
 @media screen and (max-width:322px){
@@ -653,61 +714,8 @@ top: 0;
 	top:1px;
 }
  /***Sync**/
-#Sync{
-  background-color: #fff;
-  color:  #40514E;
-  padding: 7% 15% 7% 51%;
-  line-height: 2;
-  text-align: left;
-  background-color: white;
-}
-.Sync-text{
-  color:  #40514E;
-}
-.Sync-h1{
-  color: #000;
-  font-weight: lighter;
-  font-size: 2rem;
-  padding-bottom: 2rem;
-  font-weight: bold;
-}
-.Sync-h2{
-  font-size: 1.5rem;
-  color: #000;
-  margin-top: 18px;
-}
-.Sync-h3{
-  font-size:1.3rem;
-  font-weight: lighter;
-  padding: 1.875rem 0;
-}
-.Sync-button {
-	background-color:black ;
-	border-radius:27px;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-size:19px;
-	padding:18px 36px;
-  border: 1px solid black;
-  margin: 64px auto 256px;
-  text-decoration:none;
-  transition: 0.6s;
-}
- .Sync-button:hover {
-	background-color:transparent;
-  text-decoration: none;
-  color: black;
-  border: 1px solid black;
-  transition: 0.6s;
-}
- .Sync-button:active {
-	position:relative;
-	top:1px;
-}
-.pc-image{
-  width:38.5rem;
-}
+
+
 /***New Guests***/
 #New-Guests{
   background-color: #fae053;
@@ -789,11 +797,12 @@ line-height: 1.6;
 }
 #company{
   background-color: white;
-  padding: 100px 0;
+  padding: 100px 0 215px;
   text-align: center;
 }
 .Hotels-icons{
   margin:1rem 0;
+  width: 12rem;
 }
 #Explore{
   text-align: center;
@@ -925,7 +934,7 @@ transition: 0.4s;
     font-size: 1.7rem;
     padding: 50px 30px 0 30px;
     }.Sync-button{
-      margin: 24px auto 1px;
+      margin: 24px auto 80px;
     }.Guest-p{
       margin-bottom: 22px;
     }#One-place{
