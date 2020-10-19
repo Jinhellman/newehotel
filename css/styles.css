@@ -429,7 +429,7 @@ top: 0;
   #rightgear {
     width: 800px;
   }.logo-special {
-    left: 0px;
+    left: 257px;
   }.title-h1{
     font-size: 3.6rem;
   }.desctop-box {
@@ -447,6 +447,24 @@ top: 0;
     width: 1095px;
   }.i-pad{
     width: 1154px;
+  }
+}
+@media screen and (min-width:2000px){
+  .nav-a{
+    font-size: 2.25rem;
+  }
+}
+@media screen and (max-width:1441px){
+  .swiper-container{
+    top: 16px;
+    left: 18px;
+    border-radius: 2%;
+    height: 465px;
+    width: 665px;
+  }.i-pad{
+    width: 703px;
+  }.logo-special{
+    left: -147px;
   }
 }
 @media screen and (max-width:1380px){
@@ -638,19 +656,13 @@ top: 0;
 #Sync{
   background-color: #fff;
   color:  #40514E;
-  padding: 7% 15%;
+  padding: 7% 15% 7% 51%;
   line-height: 2;
-  text-align: center;
-  background-image: url("../images/14.svg");
-  background-repeat: no-repeat;
-  background-position: right;
-}
-.Sync2{
-
+  text-align: left;
+  background-color: white;
 }
 .Sync-text{
   color:  #40514E;
-  text-align: left;
 }
 .Sync-h1{
   color: #000;
@@ -658,7 +670,6 @@ top: 0;
   font-size: 2rem;
   padding-bottom: 2rem;
   font-weight: bold;
-  text-align: center;
 }
 .Sync-h2{
   font-size: 1.5rem;
@@ -671,22 +682,24 @@ top: 0;
   padding: 1.875rem 0;
 }
 .Sync-button {
-	background-color:#b55400 ;
+	background-color:black ;
 	border-radius:27px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:"BPG Arial", sans-serif;
 	font-size:19px;
 	padding:18px 36px;
-  border: 1px solid #393e46;
+  border: 1px solid black;
   margin: 64px auto 256px;
   text-decoration:none;
+  transition: 0.6s;
 }
  .Sync-button:hover {
-	background-color:#393e46;
+	background-color:transparent;
   text-decoration: none;
-  color: #fff;
+  color: black;
+  border: 1px solid black;
+  transition: 0.6s;
 }
  .Sync-button:active {
 	position:relative;
@@ -697,33 +710,33 @@ top: 0;
 }
 /***New Guests***/
 #New-Guests{
-  background-image: url("../images/batumi2.jpg");
-  background-repeat: no-repeat;
-  background-attachment: local;
-  background: blur(5px);
+  background-color: #fae053;
   padding: 7% 15%;
   text-align: center;
-  color: #fff;
-  text-shadow: 1px 1px #000;
+  color: black;
+  border-top-style: solid;
+  border-top-width: thin;
+  border-top-color: white;
 }
 .Guests-button {
-	background-color:#b55400;
+	background-color:transparent;
 	border-radius:28px;
-	border:2px solid #f8f9fa;
+	border:2px solid white;
 	display:inline-block;
 	cursor:pointer;
-	color:#eeeeee;
-	font-family:"BPG Arial", sans-serif;
+	color:black;
 	font-size:20px;
 	padding:18px 55px;
 	text-decoration:none;
   margin-bottom: 150px;
   text-shadow: none;
+  transition: 0.6s;
 }
 .Guests-button:hover {
 	background-color:rgba(0,0,0,.075);
   text-decoration: none;
   color: #fff;
+  transition: 0.6s;
 }
 .Guests-button:active {
 	position:relative;
@@ -733,9 +746,15 @@ top: 0;
   margin-bottom: 65px;
   font-weight: lighter;
   font-size: 2rem;
+  color: black;
+  padding-bottom: 4rem;
 }
 .Guest-p{
   margin-bottom: 50px;
+}
+.guest-ic1 {
+  color: darkslategray;
+  padding-bottom: 2rem;
 }
 #One-place{
   padding: 7% 15%;
@@ -755,7 +774,7 @@ line-height: 1.6;
   padding-bottom: 50px;
 }
 .icon-check{
-  color: #b55400;
+  color: #fae053;
 }
 #Mix-Hotels{
   background-color: #222831;
@@ -766,9 +785,10 @@ line-height: 1.6;
   font-weight: lighter;
   padding: 70px 0 70px;
   text-align: center;
+  color: gray;
 }
 #company{
-  background-color: #222831;
+  background-color: white;
   padding: 100px 0;
   text-align: center;
 }
@@ -809,18 +829,20 @@ line-height: 1.6;
 	top:1px;
 }
 #final-page{
-
+  padding: 7% 0 10% 0;
   background-color: white;
-  padding: 7% 15% 10% 3%;
-  text-shadow: 1px 1%  #000;
+  border-top-style: solid;
+  border-top-width: thin;
+  border-top-color: #fae053;
 }
  .final-div{
   color: #fff;
+  text-align: center;
  }
 .final-h2{
   line-height: 1.5;
   font-size: 3rem;
-  color: #fff;
+  color: gray;
   padding-bottom: 50px;
 }
 .final-p{
@@ -828,23 +850,24 @@ line-height: 1.6;
   color: #fff;
 }
 .final-button {
-	background-color:#b55400;
+	background-color:black;
 	border-radius:28px;
-	border:2px solid #fff;
+	border:2px solid black;
 	display:inline-block;
 	cursor:pointer;
 	color:#eeeeee;
-	font-family:"BPG Arial", sans-serif;
 	font-size:17px;
 	padding:16px 31px;
 	text-decoration:none;
   text-shadow: none;
+  transition: 0.6s;
 }
 .final-button:hover {
   background-color:rgba(0,0,0,.075);
-  border:2px solid #d9e0da;
+  border:2px solid black;
   text-decoration: none;
-  color: #fff;
+  color: black;
+  transition: 0.6s;
 }
 .final-button:active {
 	position:relative;
@@ -853,13 +876,13 @@ line-height: 1.6;
 /***contact list**/
 #contact-list{
   color: #000;
-  padding: 1% 15% 6%;
-  background-color: #393e46;
+  padding: 1% 15% 11%;
+  background-color: #fae053;
   text-align: center;
 }
 .contact-icon{
   padding-right: 10px;
-  color: #eeeeee;
+  color: black;
 
 }
 .blue-icon:hover{
@@ -869,32 +892,31 @@ line-height: 1.6;
   color:red;
 }
 .final-a{
-color: #eeeeee;
+color:black;
+transition: 0.4s;
 }
 .final-a:hover{
-  color: #b55400;
+  color: gray;
   text-decoration: none;
+  transition: 0.4s;
 }
 .middle-hr{
   margin: 32px;
   visibility: hidden;
 }
 .webName-h1{
-  color: #b55400;
   text-align: center;
-  background-color:#393e46;
-  font-family:'Sacramento';
+  background-color:#fae053;
   margin: 0 auto;
   padding-top: 20px;
 }
 .webName-p{
   text-align: center;
-  background-color:#393e46;
-  font-family:'Sacramento';
-  color: #eeeeee;
+  background-color:#fae053;
+  color: black;
   margin: 0 auto;
   padding: 1% 3%;
-  font-size: 20px;
+  font-size: 12px;
 }
 
 
