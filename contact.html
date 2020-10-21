@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/bpg-arial.min.css">
     <link rel="icon" href="images/favicon.ico">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>#map {
       height: 400px;
@@ -74,34 +75,71 @@
         </div>
       </nav>
     </section>
+    <!--
     <section id="first">
-      <div id="map"></div>
-      <script>
-      function initMap() {
-        var uluru = {lat: 41.716667, lng: 44.783333};
-        var map = new google.maps.Map(
-          document.getElementById('map'), {zoom: 4, center: uluru})
-          var marker = new google.maps.Marker({position: uluru, map: map});
-        }
-      </script>
-      <script async
-      defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_OE2SNKgydQO8gpq9qrc8XL151TT2RJs&callback=initMap">
 
-      </script>
     </section>
+  -->
     <section id="second">
-      <div class="container1 container">
-        <form action="mailto:info@w3docs.com" method="get" enctype="text/plain">
-          <label for="სახელი">სახელი</label>
-          <input type="text" id="fname" name="firstname" placeholder="თქვენი სახელი"style="color:#b55400;">
-          <label for="ელ-ფოსტა">ელ-ფოსტა</label>
-          <input type="text" id="lname" name="lastname" placeholder="თქვენი ელ-ფოსტა"style="color:#b55400;">
-          <label for="სათაური">სათაური</label>
-          <input type="text" name="" value="" style="color:#b55400;">
-          <label for="ტექსტი">ტექსტი</label>
-          <textarea id="subject" name="subject" placeholder="დაწერეთ ტექსტი.." style="height:200px;color:#b55400;"></textarea>
-          <input type="submit" value="დადასტურება">
-        </form>
+      <div class="container1 container-fluid">
+        <div class="row">
+          <div data-aos="zoom-in"data-aos-offset="300" data-aos-duration="3000"data-aos-easing="ease-in-sine"  class="col-lg-6 col-md-12 col-sm-12 special-map">
+              <!--
+            <div class="i-box">
+              <img class="imgForMap"src="images/iphone-box.png" alt="">
+              <img class="iphone-head"src="images/iphone-head2.png" alt="">
+              <div id="map"></div>
+              <script>
+              function initMap() {
+                var uluru = {lat: 41.716667, lng: 44.783333};
+                var map = new google.maps.Map(
+                  document.getElementById('map'), {zoom: 4, center: uluru})
+                  var marker = new google.maps.Marker({position: uluru, map: map});
+                }
+              </script>
+              <script async
+              defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_OE2SNKgydQO8gpq9qrc8XL151TT2RJs&callback=initMap">
+
+              </script>
+            </div>
+          -->
+          <div class="i-box">
+            <img class="imgForMap"src="images/iphone-box.png" alt="">
+            <img class="iphone-head"src="images/iphone-head2.png" alt="">
+            <div id="map"></div>
+            <script>
+            function initMap() {
+              var uluru = {lat: 41.716667, lng: 44.783333};
+              var map = new google.maps.Map(
+                document.getElementById('map'), {zoom: 4, center: uluru})
+                var marker = new google.maps.Marker({position: uluru, map: map});
+              }
+            </script>
+            <script async
+            defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_OE2SNKgydQO8gpq9qrc8XL151TT2RJs&callback=initMap">
+
+            </script>
+          </div>
+
+          </div>
+          <div class="col-lg-6 col-md-12 col-sm-12 sp-padding">
+            <div class="">
+              <form action="mailto:info@w3docs.com" method="get" enctype="text/plain">
+                <label for="სახელი">სახელი</label>
+                <input type="text" id="fname" name="firstname" placeholder="თქვენი სახელი"style="color:gray;">
+                <label for="ელ-ფოსტა">ელ-ფოსტა</label>
+                <input type="text" id="lname" name="lastname" placeholder="თქვენი ელ-ფოსტა"style="color:gray;">
+                <label for="სათაური">სათაური</label>
+                <input type="text" name="" value="" style="color:gray;">
+                <label for="ტექსტი">ტექსტი</label>
+                <textarea id="subject" name="subject" placeholder="დაწერეთ ტექსტი.." style="height:200px;color:gray;"></textarea>
+                <input type="submit" value="დადასტურება">
+              </form>
+            </div>
+
+          </div>
+        </div>
+
       </div>
     </section>
   </div>
@@ -137,5 +175,17 @@
 <section id="fin-box">
   <p class="webName-p">ehotelspace all Rights reserved © </p>
 </section>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+AOS.init();
+</script>
+<script>
+AOS.init({
+disable: function() {
+var maxWidth = 1400;
+return window.innerWidth < maxWidth;
+}
+});
+</script>
 </body>
 </html>
