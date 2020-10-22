@@ -1,10 +1,6 @@
 body{
-font-family: "BPG Arial", sans-serif;
-background-image: url("../images/office.jpg");
-background-repeat: no-repeat;
-background-position: center;
-text-shadow: 1px 1px #000;
-background-color: #000;
+font-family: "BPG Nateli Mtavruli", sans-serif;
+background-color: #fae053;
 }
 span{
   font-weight: 600;
@@ -16,10 +12,10 @@ outline: none;
   font-size: 1.25rem;
 }
 .nav-item:hover{
-    box-shadow: 0 2px #b55400;
+    box-shadow: 0 2px black;
 }
 .nav-a{
-  color: #fff;
+  color: black;
   font-size:1.25rem;
 }
 .nav-a:hover{
@@ -32,10 +28,10 @@ display: table-header-group;
   color: #fff;
 }
 .fa-globe-europe{
-  color: #fff;
+  color: gray;
 }
 .fa-globe-europe:hover{
-  color: #eeeeee;
+  color: gray;
 }
 .arrow{
   color: #fff;
@@ -72,7 +68,7 @@ border: none;
 
     padding: 100px 0 77px 0;
   font-size: 2rem;
-  color: #fff;
+  color: black;
 }
 .pricing-h2{
   color:#fff;
@@ -81,7 +77,7 @@ border: none;
   font-size: 3.4375rem;
 }
 .pricing-h2:hover{
-  color: #b55400;
+  color: #fae053;
   text-decoration: none;
 }
 .number-icon{
@@ -149,7 +145,7 @@ box-shadow: 0px 2px #fff;
   color:#fff;
 }
 .pricing-i:hover{
-  color:#b55400;
+  color:#fae053;
 }
 .webName-p{
   text-align: center;

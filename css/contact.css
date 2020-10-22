@@ -13,15 +13,6 @@ a:hover{
 }
 #map{
   position: absolute;
-  /**
-  overflow: hidden;
-  bottom: 700px!important;
-  height: 679px!important;
-  width: 318px!important;
-  left: 204px!important;
-  border-radius: 7%;
-  z-index: 1;
-  **/
   height: 679px!important;
   width: 318px!important;
   width: 100%;

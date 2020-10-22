@@ -1,10 +1,33 @@
 body{
-  font-family: "BPG Arial", sans-serif;
   color: #fff;
-  text-shadow: 1px 1px #000;
-  background-image: url("../images/aboutus1.jpg");
-  background-repeat: no-repeat;
+  font-family: "BPG Nateli Mtavruli", sans-serif;
+  background-color: #fae053;
+  position: relative;
+}
+.parallax {
+  /* The image used */
+  background-image: url("../images/z3.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("../images/z3.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 h6{
@@ -19,65 +42,85 @@ a:hover{
 input:focus, textarea:focus, select:focus, a:focus, i:focus, button:focus, div:focus, h2:focus, h6:focus{
 outline: none;
 }
-.nav-item{
+.nav-a{
   font-size: 1.25rem;
 }
-.nav-item:hover{
-    box-shadow: 0 2px #b55400;
-}
-.nav-a{
-  color: #b55400;
-  font-size:1.25rem;
-}
-.nav-a:hover{
-  color: #fff;
-}
 .navbar-nav{
-display: table-header-group;
+    display: table-header-group;
 }
 .dts-icon{
   color: #b55400;
+  z-index: 20000;
 }
-.fa-globe-europe{
-  color: #b55400;
+#dts{
+  z-index: 20000;
+
+    display: inline-block;
+    position: absolute;
+    top: 34%;
+    right: 2%;
+    list-style: none;
+}
+.nav-item{
+  transition: 0.4s;
+}
+.nav-item:hover{
+  box-shadow: 0 2px black;
+  transition: 0.4s;
+}
+.nav-link{
+  color:gray;
+  transition: 0.3s;
+}
+.nav-link:hover{
+  color: black;
+  transition: 0.3s;
+}
+.navigation{
+  padding: 0.5rem 0.3125rem;
+}
+.navbar-brand{
+  padding-left: 0.3125rem;
+}
+.navbar{
+  position: relative;
+  z-index: 25;
+  background-color: transparent;
+  text-align: left;
+}
+.navbar-toggler-icon{
+  position: relative;
+  z-index: 1;
+}
+.navbar-toggler-icon:hover{
+  text-decoration: none;
+}
+
+.lang-special{
+
+}
+.fa-globe{
+  z-index: 1;
+  color:gray;
+  font-size: 2.25rem;
+  pointer-events: none;
 }
 .fa-globe-europe:hover{
-  color: #fff;
+  color: #eeeeee;
 }
 .arrow{
-  color: #b55400;
+  color: #fff;
 }
 .arrow:hover{
-  color:#b55400;
+  color:#fff;
 }
 .dropdown{
   padding: 0 1.625rem;
 }
-.dropdown-item{
-  color:  #fff;
-  background-color: #b55400;
-}
-.dropdown-item:hover{
-  background-color: rgba(0,0,0,.075);
-  color: #eeeeee;
+#textdr{
+  text-shadow: none;
 }
 
-.dropdown-menu{
-padding: 0;
-min-width: 6rem;
-font-size: 0.8125rem;
-background-color: rgba(0,0,0,.075);
-border-color: #b55400;
-border: none;
-}
-.dropdown-menu:hover{
-  background-color: rgba(8, 13, 17, 0.48);
-  color: #fff;
-}
-.language-btn1{
-  background-color: #fff;
-  color: #000;
-}
 #first{
   padding: 4% 18%;
 }
@@ -149,9 +192,10 @@ color: #b55400;
   padding: 0 32%;
 }
 .first-h6{
-  text-align: justify;
+  text-align: left;
   font-size: 1.2rem;
   padding-top: 24px;
+  line-height: 1.5;
 }
 .second-text{
   margin:27px auto;
@@ -205,8 +249,6 @@ color: #b55400;
  padding: 0;
 }.decoration-hr{
   padding: 0 27%;
-}body{
-  background-image: url("../images/o1.jpg");
 }#first{
   padding: 4% 2%;
 }.first-h6{
@@ -221,5 +263,12 @@ color: #b55400;
 @media screen and (max-width:710px){
   .decoration-hr{
     padding: 0 19%;
+  }
+}
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }.parallax2 {
+    background-attachment: scroll;
   }
 }

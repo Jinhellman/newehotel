@@ -1,6 +1,6 @@
 body{
-  font-family: "BPG Arial", sans-serif;
-  background-image: url("../images/dts.jpg");
+  font-family: "BPG Nateli Mtavruli", sans-serif;
+  background-image: url("../images/page1.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -14,11 +14,10 @@ outline: none;
 input{
   border-style:  none none solid;
   border-width: thin;
-  border-color: #b55400;
+  border-color: black;
   background-color: rgba(0, 0, 0, 0);
   border-radius: 1%;
-  color: #222831;
-  text-shadow: 0 1px #000;
+  color: black;
   width: 68%;
 
 }
@@ -28,8 +27,7 @@ input:focus{
   border-width: thin;
 }
 label{
-  color:#fff;
-  text-shadow: 1px 1px 4px #000;
+  color:black;
   margin-top: 1.3rem;
 }
 .nav-item{
@@ -39,12 +37,11 @@ label{
     box-shadow: 0 2px #b55400;
 }
 .nav-a{
-  color: #b55400;
+  color: black;
   font-size:1rem;
-  text-shadow: 0 1px #000;
 }
 .nav-a:hover{
-  color: #fff;
+  color: gray;
 }
 .navbar-nav{
 display: table-header-group;
@@ -53,11 +50,10 @@ display: table-header-group;
   color: #b55400;
 }
 .fa-globe-europe{
-  color: #b55400;
-  text-shadow: 0 1px #000;
+  color: black;
 }
 .fa-globe-europe:hover{
-  color: #fff;
+  color: black;
 }
 .arrow{
   color: #b55400;
@@ -94,8 +90,7 @@ border: none;
 }
 .enter-h1{
   margin-bottom: 40px;
-  color: #fff;
-  text-shadow: 1px 1px 4px #000;
+  color: black;
   text-align: center;
 }
 #logIn{
@@ -105,7 +100,7 @@ text-align: left;
 .button1{
 border-radius: 1%;
 border-style: solid;
-border-color: #b55400;
+border-color: black;
 border-width: thin;
 background-color: rgba(0,0,0,.075);
 color: #000;
@@ -113,17 +108,18 @@ font-size: 14px;
 padding: 6px 18px;
 border-radius: 15px;
 margin: 9px 0 0 6px;
-font-family: "BPG Arial", sans-serif;
+transition: 0.6s;
 }
 .button1:hover{
-  background-color:#b55400 ;
+  background-color:black ;
   color:#fff;
-  border-color: #b55400;
+  border-color: black;
+  transition: 0.6s;
 }
 .button2{
 border-radius: 1%;
 border-style: solid;
-border-color: #b55400;
+border-color: black;
 border-width: thin;
 background-color: rgba(0,0,0,.075);
 color: #000;
@@ -131,30 +127,32 @@ font-size: 14px;
 padding: 6px 18px;
 border-radius: 15px;
 margin: 9px 0 0 6px;
-font-family: "BPG Arial", sans-serif;
+transition: 0.6s;
 }
 .button2:hover{
-  background-color: #b55400;
   color:#fff;
-  border-color: #b55400;
+  background: black;
+  border-color: #ffc107cf;
+  transition: 0.6s;
 }
 .button3{
 border-radius: 1%;
 border-style: solid;
-border-color: #212529;
+border-color: black;
 border-width: thin;
-background-color: #b55400;
-color: #fff;
+background-color: rgba(0,0,0,.075);
+color: black;
 margin-top: 35px;
 font-size: 17px;
 padding: 13px 56px;
 border-radius: 28px;
-font-family: "BPG Arial", sans-serif;
+transition: 0.6s;
 }
 .button3:hover{
-  background-color: rgba(0,0,0,.075);
-  color:#000;
-  border-color: #b55400;
+  background-color: black;
+  color:white;
+  border-color: white;
+  transition: 0.6s;
 }
 .text1{
   border-style: double;
@@ -165,8 +163,6 @@ font-family: "BPG Arial", sans-serif;
 }
 .card{
   background-color: rgba(0, 0, 0, 0.13);
-  color: #fff;
-  text-shadow: 1px 1px 9px #222831;
   margin-top: 20px;
   width: auto;
 }
