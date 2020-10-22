@@ -197,8 +197,20 @@ color: #b55400;
   padding-top: 24px;
   line-height: 1.5;
 }
+.first-h6-2{
+  text-align: left;
+  font-size: 1.2rem;
+  padding-top: 24px;
+  line-height: 1.5;
+}
 .second-text{
   margin:27px auto;
+}
+.first-parallax{
+  padding: 1% 1% 0;
+}
+.parallax-anim2{
+  padding: 0 7%;
 }
 #contact-list{
   text-align: center;
@@ -253,6 +265,7 @@ color: #b55400;
   padding: 4% 2%;
 }.first-h6{
   font-size: 1rem;
+  text-align: justify;
 }
 }
 @media screen and (max-width:849px){
@@ -265,10 +278,30 @@ color: #b55400;
     padding: 0 19%;
   }
 }
-@media only screen and (max-device-width: 1366px) {
+@media only screen and (max-device-width: 1367px) {
   .parallax {
     background-attachment: scroll;
   }.parallax2 {
     background-attachment: scroll;
+    visibility: hidden;
+    max-height:0;
+    min-height: 0;
+  }
+}
+@media screen and (max-width:570px){
+  .parallax2{
+    min-height: 6rem;
+  }
+}
+@media screen and (max-width:450px){
+  .parallax2{
+    min-height: 28rem;
+  }
+}
+@media screen and (max-width:321px){
+  .parallax2{
+    min-height: 35rem;
+  }.second-one{
+    margin-bottom: 7rem;
   }
 }
